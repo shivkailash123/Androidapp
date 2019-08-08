@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/overview_image"
+        android:contentDescription="image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/pome"
+        android:layout_gravity="top|fill_horizontal"/>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp">
+        <TextView
+            android:paddingTop="20dp"
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:text="
+
+Pomegranate grows well under semi-arid conditions and can be grown upto an altitude of 500 m. above m.s.l.. It thrives well under hot, dry summer and cold winter provided irrigation facilities are available. The tree requires hot and dry climate during fruit development and ripening. Pomegranate tree is deciduous in areas of low winter temperature and an evergreen or partially deciduous in tropical and sub-tropical conditions. It can tolerate frost to a considerable extent in dormant stage, but is injured at temperature below - 110 C. Important pomegranate varieties cultivated in India are Alandi or Vadki, Dholka, Kandhari, Kabul, Muskati Red, Paper Shelled, Spanish Ruby, Ganesh (GB I), G 137, P 23, P 26, Mridula, Aarakta, Jyoti, Ruby, IIHR Selection, Yercaud 1 and Co 1.
+
+ Land is prepared by ploughing, harrowing, leveling and removing weeds.Pomegranate is propagated vegetatively by cuttings, air layering or gooteeSquare system of planting is mostly adopted. Planting distance is decided on the basis of soil type and climate. A spacing of 4-5 m. on marginal and very light soils is recommended.
+
+
+
+Pits of 60 X 60 X 60 cm. size are dug (at a spacing of 5 cm. in square system) about a month prior to planting and kept open under the sun for a fortnight. About 50 g. of 5% BHC or carbaryl dust is dusted on the bottom and sides of the pits as a pre-caution against termites. The pits are filled with top soil mixed with 20 kg. farmyard manure and 1 kg. super phosphate. After filling the pit, watering is done to allow soil to settle down. Cuttings/air layers are then planted and staked. Irrigation is provided immediately after planting.The recommended fertilizer dose is 600-700 g. N, 200-250 g. P2O5 and 200-250 g. K2O /tree/year. Application of 10 kg. farmyard manure and 75 g. ammonium sulphate to 5 year old tree annually is adequate , whereas application of 50 kg. farmyard manure and 3.5 kg. oil cake or 1 kg. sulphate of ammonia prior to flowering is ideal for healthy growth and fruiting.  The time of application is December/January for ambe bahar, May/June for Mrig bahar and October/November for hasthe bahar.
+
+ First irrigation is provided in case of mrig bahar crop in the middle of May followed by regular irrigation till the monsoon sets in. Weekly irrigation in summers and that during winters at fortnightly intervals is recommended. The check basin system of irrigation is usually followed.
+
+ "></TextView>
+    </ScrollView>
+</LinearLayout>

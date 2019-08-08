@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Finalwala</string>
+    <string name="button">Button</string>
+    <string name="signup">SIGNUP</string>
+    <string name="password">Password</string>
+
+</resources>

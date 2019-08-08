@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/overview_image"
+        android:contentDescription="image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/grapes"
+        android:layout_gravity="top|fill_horizontal"/>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp">
+        <TextView
+            android:paddingTop="20dp"
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:text="Grape is an important commercial fruit crop of south India. Grape growing has been regarded as most remunerative enterprise.
+
+In North India particularly, Punjab its cultivation is being taken in a big way. Due to heavy initial investment on erecting the system of training and occurrence of rains at the ripening time of grapes, the area under grapes may not increase further. In Madhurai area through staggered pruning fruit is taken throughout the year. Origin:
+
+Vitis vinifera is the most important species grown in India. Grapes originated in Armenia near Caspian Sea. In India, grapes were introduced from Iran and Afghanistan by the end of 12’^ century. However, Aryans knew grape cultivation and its uses much earlier. S. Partap Singh Kairon Chief Minister of Punjab imported Anab-e-Shahi and Perlette cultivars during 1962 from California.
+Area:
+
+ADVERTISEMENTS:
+
+Area under grape in India is 79.6 thousands hectares with an annual production of 1878.3 thousand M. tonnes. Most of the area of grape cultivation is in Maharashtra, Andhra Pradesh, Kamataka and Tamil Nadu. It is being cultivated in North Indian states as temperate crop. Punjab occupies an are of 777 hectares with annual production of 22088 MT.
+Uses:
+
+Generally grapes are eaten fresh as table fruit. As it contains glucose as major sugars it is easily digestible. Grapes are good source of calcium, phosphorus, iron and vitamins. The total soluble solids in different cultivars may range from 10 to 20 percent and acidity 1 to 4 percent. Fresh grapes are laxative in nature. Wine can be prepared from grape juice. Berries are used to prepare resin.
+Botany:
+
+Vitis vinifera L. belong to family Vitaceae. Genus Vitis includes two Sub – genera viz. Muscadina and Euvitis vitis vinifera has characteristic of shredding bark, forked tendrils, lobed leaves, elongated clusters, seeded or seedless berries remaining attached to the pedicels. Whole berries (pericarp and placenta) – are edible.
+Climate:
+
+Grapes are grown in both temperate and tropical climate. In tropical climate vines remain evergreen. Grapes perform well where there is no or little rain at the ripening time of the grapes. Usually dry weather during flowering and ripening is preferred for high quality grape production. Regions having heavy rainfall or hail storms are not suited for grape cultivation.
+Soil:
+
+Grapes are found growing on a variety of soil type. Best soil for grapes would be well drained loam to sandy loam with good organic matter. Poorly drained, alkaline soils should be discarded. Grapes do well on soils having less than pH 8.7 and EC upto 1.5 mmhos/cm, calcium carbonate up to 10 percent and lime concentration up to 20 percent.
+Cultivars:
+
+Just like in mango, there are over one thousands grape cultivars. However, only few are under wide cultivation.
+
+Some of the cultivars are discussed below:
+Perlette:
+
+Perlette is hybrid between Scolokertek hiralynoje and Sultanina Marble developed by H.P. Olmo while working at Davis, University of California in 1936. This is early ripening seedless cultivar which was released for cultivation in Punjab in 1964. At present this is the only cultivar under cultivation through out North India.
+
+It bears heavily on short spurs (3 to 4 buds). The bunches are usually compact, prominently shouldered, conical and big in size. There may be over 300 berries per branch. Berries are green to amber in colour, medium in size and round in shape. The ripening starts from the beginning of 2nd week of June from Sirsa Hissar belt to 3rd week of June in Himachal Pradesh and Jammu and Kashmir. The T.S.S. of juice ranges between 14 to 18 percent with 0.5 to 0.7 percent acidity. "></TextView>
+    </ScrollView>
+</LinearLayout>

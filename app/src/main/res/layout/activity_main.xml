@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00cccc"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/farmer"></RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:layout_marginTop="30dp"
+            android:background="#00cccc">
+            <android.support.v7.widget.CardView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:background="#00cccc"
+                android:layout_marginLeft="20dp">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#00cccc"
+                    android:foreground="@drawable/news"
+                    android:id="@+id/newhai"
+                    android:onClick="openn"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="100dp"
+                    android:text="           NEWS"
+                    android:background="#00cccc"
+                    android:textStyle="bold"/>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="80dp"
+                android:background="#00cccc">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                     android:background="#00cccc"
+                    android:foreground="@drawable/video"
+                    android:id="@+id/videohai"
+                    android:onClick="openn"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#00cccc"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="100dp"
+                    android:text="           VIDEOS"
+                    android:textStyle="bold"/>
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="168dp">
+            <android.support.v7.widget.CardView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:background="#00cccc">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#00cccc"
+                    android:foreground="@drawable/plant"
+                    android:id="@+id/planthai"
+                    android:onClick="openn"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:background="#00cccc"
+                    android:layout_marginTop="100dp"
+                    android:text="        PRACTICE"
+                    android:textStyle="bold"/>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="80dp"
+                android:background="#00cccc">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#00cccc"
+                    android:foreground="@drawable/message"
+                    android:id="@+id/jaihohai"
+                    android:onClick="openn"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:background="#00cccc"
+                    android:layout_marginTop="100dp"
+                    android:text="           CHAT"
+                    android:textStyle="bold"/>
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

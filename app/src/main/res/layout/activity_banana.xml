@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/overview_image"
+        android:contentDescription="image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/grapes"
+        android:layout_gravity="top|fill_horizontal"/>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp">
+        <TextView
+            android:paddingTop="20dp"
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:text="Banana plants are often mistaken for trees or palms - they are actually herbs. The banana is a perennial plant that replaces itself. Bananas do not grow from a seed but from a bulb or rhizome, and it takes 9 to 12 months from sowing a banana bulb to harvesting the fruit. The banana flower appears in the sixth or seventh month. Unlike other fruit like apples which have a growing season, bananas are available all year round.After nine months, the bananas are harvested while still green. At the packhouse they are inspected and sorted for export. Buyers of fruit in the UK want unbruised bananas and so very high standards are set. If the bananas do not meet these standards they are usually sold locally at a much lower price.The fruit is then transported to ports to be packed in refrigerated ships called reefers (bananas take between six and twelve days to get to the UK/Europe). In order to increase shelf life, they are transported at a temperature of 13.3°C, and require careful handling in order to prevent damage. Humidity, ventilation and temperature conditions are also carefully monitored in order to maintain quality.When the bananas arrive at their destination port they are first sent to ripening rooms (a process involving ethylene gas) and then sent to the shops. Dessert banana production for export (around 15 million tonnes per year) is of huge economic importance for many countries in the Global South. However, it also causes huge environmental issues. For example, banana production relies on intensive monocultures, which are sustained by using massive quantities of toxic chemicals, which are hazardous to both workers and the environment. The use of unsafe chemicals like pesticide can pose serious health problems for workers. In 2011, workers in Latin America won a lawsuit against large corporations who used Nemogon in plantations despite the fact the chemical was banned in 1977. Industrial-scale production also results in problematic waste management issues. Research led by CIRAD (International Agricultural Research for Development Centre) found that significant agrochemical reduction can be achieved while maintaining good levels of productivity and quality.Bananas and other tropical fruit like pineapples are grown in tropical areas like Africa, Latin America, the Caribbean, and the Pacific. Bananas are a staple food for many developing countries and only around 15 to 20% of all bananas are exported to the global market.
+
+Most tropical fruit available in British supermarkets are exported from Latin America and West Africa. Many exporters are finding new areas and countries to export from in the search for cheaper fruit, but this is jeopardising social and environmental standards."></TextView>
+              </ScrollView>
+</LinearLayout>
